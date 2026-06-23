@@ -1,0 +1,268 @@
+Quiz De Sistemas operacionais e Logica de
+programação
+let acertos = 0;
+let erros = 0;
+let resposta;
+resposta= prompt(&quot;1)1. Qual estrutura de repetição é a mais indicada quando
+se sabe previamente o número exato de vezes que um trecho de código deve
+ser executado?\nA) if-else\nB) while\nC) for\nD) switch-case:&quot;)
+if(resposta == &quot;B&quot; || resposta == &quot;b&quot;) {
+console.log(&quot;Acertou! Resposta correta B&quot;)
+acertos++;
+}else{
+console.log(&quot;Errou, Resposta correta B&quot;)
+erros++;
+}
+resposta= prompt(&quot;2)1. O que significa a sigla CPU, o componente principal de
+um computador?\nA) Central Processing Unit (Unidade Central de
+Processamento)\nB) Computer Personal Unity (Unidade de Computador
+Pessoal)\nC) Control Process Utility (Utilitário de Processo de Controle)\nD)
+Core Program Universal (Núcleo de Programa Universal):&quot;)
+if(resposta == &quot;A&quot; || resposta == &quot;a&quot;) {
+console.log(&quot;Acertou! Resposta correta A&quot;)
+acertos++;
+}else{
+console.log(&quot;Errou, Resposta correta A&quot;)
+erros++;
+}
+resposta= prompt(&quot;3)1. Qual laço repete código n vezes?\nA) if\nB for\nC)
+switch\nD) else:&quot;)
+if(resposta == &quot;B&quot; || resposta == &quot;b&quot;) {
+console.log(&quot;Acertou! Resposta correta B&quot;)
+
+acertos++;
+}else{
+console.log(&quot;Errou, Resposta correta B&quot;)
+erros++;
+}
+resposta= prompt(&quot;4)1. O que é a CPU?\nA) Memória\nB)
+Monitor\nC)Processador\nD) Teclado:&quot;)
+if(resposta == &quot;C&quot; || resposta == &quot;c&quot;) {
+console.log(&quot;Acertou! Resposta correta C&quot;)
+acertos++;
+}else{
+console.log(&quot;Errou, Resposta correta C&quot;)
+erros++;
+}
+resposta= prompt(&quot;5)1. Qual memória apaga ao desligar?\nA) RAM\nB) HD\nC)
+SSD\nD) ROM:&quot;)
+if(resposta == &quot;A&quot; || resposta == &quot;a&quot;) {
+console.log(&quot;Acertou! Resposta correta A&quot;)
+acertos++;
+}else{
+console.log(&quot;Errou, Resposta correta A&quot;)
+erros++;
+}
+resposta= prompt(&quot;6)1. O que é um algoritmo?\nA) Um erro\n) Um software\nC)
+Um passo a passo\nD) Um vírus:&quot;)
+if(resposta == &quot;C&quot; || resposta == &quot;c&quot;) {
+console.log(&quot;Acertou! Resposta correta C&quot;)
+acertos++;
+}else{
+console.log(&quot;Errou, Resposta correta C&quot;)
+
+erros++;
+}
+resposta= prompt(&quot;8)1. Qual destes é um SO? \nA) Chrome\n) Linux\nC)
+Python \nD) Java:&quot;)
+if(resposta == &quot;B&quot; || resposta == &quot;b&quot;) {
+console.log(&quot;Acertou! Resposta correta B&quot;)
+acertos++;
+}else{
+console.log(&quot;Errou, Resposta correta B&quot;)
+erros++;
+}
+resposta= prompt(&quot;9)1. Qual símbolo atribui valor? \nA) ==\nB) =\nC) + \nD)
+Dois Pontos:&quot;)
+if(resposta == &quot;B&quot; || resposta == &quot;b&quot;) {
+console.log(&quot;Acertou! Resposta correta B&quot;)
+acertos++;
+}else{
+console.log(&quot;Errou, Resposta correta B&quot;)
+erros++;
+}
+resposta= prompt(&quot;10)1. O que é Deadlock? \nA) Início rápido\nB) Travamento
+mútuo\nC) Vírus de rede \nD) Memória cheia:&quot;)
+if(resposta == &quot;B&quot; || resposta == &quot;b&quot;) {
+console.log(&quot;Acertou! Resposta correta B&quot;)
+acertos++;
+}else{
+console.log(&quot;Errou, Resposta correta B&quot;)
+erros++;
+}
+Quis de temas gerais:
+
+let acertos = 0;
+let erros = 0;
+let resposta;
+resposta= prompt(&quot;1)1. Qual é o país mais populoso do mundo
+atualmente?\nA) China\nB) Brasil\nC) Argentina\nD) Indía:&quot;)
+if(resposta == &quot;D&quot; || resposta == &quot;d&quot;) {
+console.log(&quot;Acertou! Resposta correta D&quot;)
+acertos++;
+}else{
+console.log(&quot;Errou, Resposta correta D&quot;)
+erros++;
+}
+resposta= prompt(&quot;2)1. Qual é a língua mais falada no mundo (nativos e não
+nativos)? \nA) Ingles\nB) Mandarim\nC) Espanhol\nD) Portugues:&quot;)
+if(resposta == &quot;A&quot; || resposta == &quot;a&quot;) {
+console.log(&quot;Acertou! Resposta correta A&quot;)
+acertos++;
+}else{
+console.log(&quot;Errou, Resposta correta A&quot;)
+erros++;
+}
+resposta= prompt(&quot;3)1. Em que ano o homem pisou na Lua pela primeira
+vez?\nA) 1970\nB) 1680\nC) 1969\nD) 1968:&quot;)
+if(resposta == &quot;C&quot; || resposta == &quot;c&quot;) {
+console.log(&quot;Acertou! Resposta correta C&quot;)
+acertos++;
+}else{
+console.log(&quot;Errou, Resposta correta C&quot;)
+erros++;
+}
+
+resposta= prompt(&quot;4)1. Qual é o elemento químico com o símbolo &#39;O&#39;?\nA)
+ouro\nB) oxigenío\nC)ozonio\nD) osmonio :&quot;)
+if(resposta == &quot;B&quot; || resposta == &quot;b&quot;) {
+console.log(&quot;Acertou! Resposta correta B&quot;)
+acertos++;
+}else{
+console.log(&quot;Errou, Resposta correta B&quot;)
+erros++;
+}
+resposta= prompt(&quot;5)1. Quantos continentes existem na Terra?\nA) 4\nB) 5\nC)
+7\nD) 6:&quot;)
+if(resposta == &quot;C&quot; || resposta == &quot;c&quot;) {
+console.log(&quot;Acertou! Resposta correta C&quot;)
+acertos++;
+}else{
+console.log(&quot;Errou, Resposta correta C&quot;)
+erros++;
+}
+resposta= prompt(&quot;6)1. Qual é a capital da França?\nA) Londres\nB)
+Brasilia\nC) Paris\nD) Roma:&quot;)
+if(resposta == &quot;C&quot; || resposta == &quot;c&quot;) {
+console.log(&quot;Acertou! Resposta correta C&quot;)
+acertos++;
+}else{
+console.log(&quot;Errou, Resposta correta C&quot;)
+erros++;
+}
+resposta= prompt(&quot;8)1. Quem pintou a &#39;Mona Lisa&#39;? \nA) Pablo Picasso \nB)
+Leonardo da Vinci\nC) Nikola Tesla \nD) Albert Ainsten:&quot;)
+if(resposta == &quot;B&quot; || resposta == &quot;b&quot;) {
+
+console.log(&quot;Acertou! Resposta correta B&quot;)
+acertos++;
+}else{
+console.log(&quot;Errou, Resposta correta B&quot;)
+erros++;
+}
+resposta= prompt(&quot;9)1. Qual é o maior planeta do Sistema Solar? \nA)
+Venus\nB) Jupiter\nC) Mercurio \nD) Saturno:&quot;)
+if(resposta == &quot;B&quot; || resposta == &quot;b&quot;) {
+console.log(&quot;Acertou! Resposta correta B&quot;)
+acertos++;
+}else{
+console.log(&quot;Errou, Resposta correta B&quot;)
+erros++;
+}
+resposta= prompt(&quot;10)1. Qual animal é conhecido como o &#39;Rei da Selva&#39;? \nA)
+Cachorro \nB) Leão \nC) Tigre \nD) Gato:&quot;)
+if(resposta == &quot;B&quot; || resposta == &quot;b&quot;) {
+console.log(&quot;Acertou! Resposta correta B&quot;)
+acertos++;
+}else{
+console.log(&quot;Errou, Resposta correta B&quot;)
+erros++;
+}
+Quis de Super Herois:
+let acertos = 0;
+let erros = 0;
+let resposta;
+resposta= prompt(&quot;1)1. Qual é o Heroi Conhecido Por usar um relogio?\nA)
+Flash\nB) Batman\nC) Homem aranha\nD) Ben 10:&quot;)
+
+if(resposta == &quot;D&quot; || resposta == &quot;d&quot;) {
+console.log(&quot;Acertou! Resposta correta D&quot;)
+acertos++;
+}else{
+console.log(&quot;Errou, Resposta correta D&quot;)
+erros++;
+}
+resposta= prompt(&quot;2)1. Qual o Heroi conhecido por ser rapido? \nA) Flash\nB)
+Homem Aranha\nC) Ben 10\nD) Homem de ferro:&quot;)
+if(resposta == &quot;A&quot; || resposta == &quot;a&quot;) {
+console.log(&quot;Acertou! Resposta correta A&quot;)
+acertos++;
+}else{
+console.log(&quot;Errou, Resposta correta A&quot;)
+erros++;
+}
+resposta= prompt(&quot;3)1. Qual o Heroi que é conhecido por ter poderes de
+aranha?\nA) Batman\nB) Ben 10\nC) Homem aranha\nD) Flash:&quot;)
+if(resposta == &quot;C&quot; || resposta == &quot;c&quot;) {
+console.log(&quot;Acertou! Resposta correta C&quot;)
+acertos++;
+}else{
+console.log(&quot;Errou, Resposta correta C&quot;)
+erros++;
+}
+resposta= prompt(&quot;4)1. Qual o heroi que tem um escudo?\nA) Homem de ferro
+B) Capitão america\nC) Lanterna verde\nD) Batman:&quot;)
+if(resposta == &quot;B&quot; || resposta == &quot;b&quot;) {
+console.log(&quot;Acertou! Resposta correta B&quot;)
+acertos++;
+
+}else{
+console.log(&quot;Errou, Resposta correta B&quot;)
+erros++;
+}
+resposta= prompt(&quot;5)1. Qual heroi tem a cor verde? \nA) Batman\nB)
+Flash\nC) Hulk\nD) Mulher maravilha:&quot;)
+if(resposta == &quot;C&quot; || resposta == &quot;c&quot;) {
+console.log(&quot;Acertou! Resposta correta C&quot;)
+acertos++;
+}else{
+console.log(&quot;Errou, Resposta correta C&quot;)
+erros++;
+}
+resposta= prompt(&quot;6)1. Heroi morcego? \nA) Flash\nB) Ben 10\nC) Batman\nD)
+Hulk:&quot;)
+if(resposta == &quot;C&quot; || resposta == &quot;c&quot;) {
+console.log(&quot;Acertou! Resposta correta C&quot;)
+acertos++;
+}else{
+console.log(&quot;Errou, Resposta correta C&quot;)
+erros++;
+}
+resposta= prompt(&quot;8)1. Maior heroina de todas? \nA) she hulk\nB) mulher
+maravilha\nC) hulk \nD) Flash:&quot;)
+if(resposta == &quot;B&quot; || resposta == &quot;b&quot;) {
+console.log(&quot;Acertou! Resposta correta B&quot;)
+acertos++;
+}else{
+console.log(&quot;Errou, Resposta correta B&quot;)
+erros++;
+
+}
+resposta= prompt(&quot;9)1. Qual é o maior heroi da marvel? \nA) Hulk\nB) Homem
+aranha\nC) wolverine \nD) Homem de ferro:&quot;)
+if(resposta == &quot;B&quot; || resposta == &quot;b&quot;) {
+console.log(&quot;Acertou! Resposta correta B&quot;)
+acertos++;
+}else{
+console.log(&quot;Errou, Resposta correta B&quot;)
+erros++;
+}
+resposta= prompt(&quot;10)1. Melhor heroi da DC? \nA) Batman \nB) Flash \nC)
+super man \nD) Hulk:&quot;)
+if(resposta == &quot;B&quot; || resposta == &quot;b&quot;) {
+console.log(&quot;Acertou! Resposta correta B&quot;)
+acertos++;
+}else{
+console.log(&quot;Errou, Resposta correta B&quot;)
+erros++;
+}
