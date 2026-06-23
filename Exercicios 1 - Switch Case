@@ -1,0 +1,280 @@
+Switch Case:
+1:
+console.log(&quot;Antes de acessar nosso Sistema, escolha seu
+Idioma!&quot;);
+let Idioma = prompt(&quot;Escolha o idioma: Portugues, Espanhol ou
+Ingles: &quot;);
+switch (Idioma) {
+case &quot;Portugues&quot;:
+console.log(&quot;Olá, Bom dia!&quot;);
+break;
+case &quot;Espanhol&quot;:
+console.log(&quot;Hola!, Buenos días!&quot;);
+break;
+case &quot;Ingles&quot;:
+console.log(&quot;Hi, Good morning!&quot;);
+break;
+default:
+console.log(&quot;Selecione um dos Idiomas acima!&quot;);
+}
+2:
+console.log(&quot;Qual dia da semana você prefere?&quot;)
+
+let dia = prompt(&quot;Digite um número de 1 a 7:&quot;)
+
+switch (dia) {
+case &quot;1&quot;:
+
+console.log(&quot;Segunda&quot;)
+break
+case &quot;2&quot;:
+console.log(&quot;Terça&quot;)
+break
+case &quot;3&quot;:
+console.log(&quot;Quarta&quot;)
+break
+case &quot;4&quot;:
+console.log(&quot;Quinta&quot;)
+break
+case &quot;5&quot;:
+console.log(&quot;Sexta&quot;)
+break
+case &quot;6&quot;:
+console.log(&quot;Sábado&quot;)
+break
+case &quot;7&quot;:
+console.log(&quot;Domingo&quot;)
+break
+default:
+console.log(&quot;Selecione um número de 1 a 7, que condiz com o
+dia da semana que vc prefere!&quot;)
+
+3:
+console.log(&quot;Qual meio de transporte vc quer esclher?&quot;)
+
+let dia = prompt(&quot;Digite um número de 1 a 5:&quot;)
+
+switch (dia) {
+case &quot;1&quot;:
+console.log(&quot;Carro&quot;)
+break
+case &quot;2&quot;:
+console.log(&quot;Trem&quot;)
+break
+case &quot;3&quot;:
+console.log(&quot;Bicicleta&quot;)
+break
+case &quot;4&quot;:
+console.log(&quot;Moto&quot;)
+break
+case &quot;5&quot;:
+console.log(&quot;Avião&quot;)
+break
+case &quot;6&quot;:
+console.log(&quot;Sábado&quot;)
+break
+default:
+console.log(&quot;Selecione um número de 1 a 5, que condiz com o
+meio de transporte que vc prefere!&quot;)
+}
+
+4:
+console.log(&quot;Qual seu nivel de urgencia?&quot;)
+
+let dia = prompt(&quot;Digite um número de 1 a 3:&quot;)
+
+switch (dia) {
+case &quot;1&quot;:
+console.log(&quot;Baixa&quot;)
+break
+case &quot;2&quot;:
+console.log(&quot;Media&quot;)
+break
+case &quot;3&quot;:
+console.log(&quot;Alta&quot;)
+break
+case &quot;4&quot;:
+default:
+console.log(&quot;Selecione um número de 1 a 3, que condiz com o
+nivel de urgencia!&quot;)
+}
+5:
+console.log(&quot;Qual a sua categoria?&quot;)
+
+let dia = prompt(&quot;Digite um número de 1 a 3:&quot;)
+
+switch (dia) {
+
+case &quot;1&quot;:
+console.log(&quot;Compacto&quot;)
+break
+case &quot;2&quot;:
+console.log(&quot;SUV&quot;)
+break
+case &quot;3&quot;:
+console.log(&quot;Caminhão&quot;)
+break
+case &quot;4&quot;:
+default:
+console.log(&quot;Selecione um número de 1 a 3, que condiz
+Escolha seu veiculo com base na sua categoria!&quot;)
+}
+6:
+console.log(&quot;Calculo da tarifa de estacionamnento&quot;)
+
+let dia = prompt(&quot;Quantas horas voce ficou estacionado?:&quot;)
+
+switch (true) {
+case horas &lt;=1:
+console.log(&quot;Valor: R$ 05&quot;);
+break;
+case horas &lt;=2:
+console.log(&quot;Valor: R$ 10&quot;);
+break;
+
+case &quot;3&quot;:
+console.log(&quot;Valor: R$ 15&quot;);
+break;
+case horas &lt;=3:
+default:
+console.log(&quot;Valor: R$ 20!&quot;)
+}
+7:
+console.log(&quot;Escolha o nível de dificuldade:&quot;);
+
+let nivel = prompt(&quot;Digite um número (1 a 3):&quot;);
+
+switch (nivel) {
+case &quot;1&quot;:
+console.log(&quot;Fácil &quot;);
+break;
+case &quot;2&quot;:
+console.log(&quot;Médio &quot;);
+break;
+case &quot;3&quot;:
+console.log(&quot;Difícil&quot;);
+break;
+default:
+console.log(&quot;Número inválido! Escolha entre 1 e 3.&quot;);
+}
+
+8:
+let servico = prompt(&quot;Escolha a categoria (yoga, musculação,
+personal):&quot;).toLowerCase();
+
+switch (servico) {
+case &quot;yoga&quot;:
+alert(&quot;Serviço: Aula de Yoga - Flexibilidade e relaxamento.&quot;);
+break;
+case &quot;musculação&quot;:
+alert(&quot;Serviço: Musculação - Treino de força com máquinas.&quot;);
+break;
+case &quot;personal&quot;:
+alert(&quot;Serviço: Personal Trainer - Treino individualizado.&quot;);
+break;
+default:
+alert(&quot;Serviço não encontrado.&quot;);
+}
+9:
+let ingresso = prompt(&quot;Sua categoria (estudante, meia ou
+inteira):&quot;).toLowerCase();
+
+switch (ingresso) {
+case &quot;estudante&quot;:
+alert(&quot;Preço: R$ 20,00&quot;);
+break;
+case &quot;meia&quot;:
+
+alert(&quot;Preço: R$ 25,00&quot;);
+break;
+case &quot;inteira&quot;:
+alert(&quot;Preço: R$ 50,00&quot;);
+break;
+default:
+alert(&quot;Categoria inválida.&quot;);
+}
+10:
+let idade = Number(prompt(&quot;Digite a idade do praticante:&quot;));
+
+switch (true) {
+case (idade &lt; 18):
+alert(&quot;Nível: Juvenil (Exercícios de desenvolvimento)&quot;);
+break;
+case (idade &gt;= 18 &amp;&amp; idade &lt;= 60):
+alert(&quot;Nível: Adulto (Exercícios de alta intensidade)&quot;);
+break;
+case (idade &gt; 60):
+alert(&quot;Nível: Sênior (Exercícios de baixo impacto)&quot;);
+break;
+default:
+alert(&quot;Idade inválida.&quot;);
+}
+11:
+
+let genero = prompt(&quot;Gênero musical (rock, clássico,
+samba):&quot;).toLowerCase();
+
+switch (genero) {
+case &quot;rock&quot;:
+alert(&quot;Instrumentos: Guitarra e Bateria.&quot;);
+break;
+case &quot;clássico&quot;:
+alert(&quot;Instrumentos: Violino e Piano.&quot;);
+break;
+case &quot;samba&quot;:
+alert(&quot;Instrumentos: Pandeiro e Cavaco.&quot;);
+break;
+default:
+alert(&quot;Gênero não cadastrado.&quot;);
+}
+12:
+let area = prompt(&quot;Escolha a área (front-end, back-end,
+mobile):&quot;).toLowerCase();
+
+switch (area) {
+case &quot;front-end&quot;:
+alert(&quot;Cursos: HTML, CSS, JavaScript e React.&quot;);
+break;
+case &quot;back-end&quot;:
+alert(&quot;Cursos: Node.js, Python, Java e SQL.&quot;);
+
+break;
+case &quot;mobile&quot;:
+alert(&quot;Cursos: React Native, Flutter e Swift.&quot;);
+break;
+default:
+alert(&quot;Área não encontrada.&quot;);
+}
+13:
+let idadeAtleta = Number(prompt(&quot;Digite a idade do atleta:&quot;));
+
+switch (true) {
+case (idadeAtleta &lt; 10):
+alert(&quot;Nível: Iniciante / Kids&quot;);
+break;
+case (idadeAtleta &gt;= 10 &amp;&amp; idadeAtleta &lt;= 17):
+alert(&quot;Nível: Juvenil / Intermediário&quot;);
+break;
+case (idadeAtleta &gt;= 18):
+alert(&quot;Nível: Profissional / Adulto&quot;);
+break;
+default:
+alert(&quot;Idade inválida.&quot;);
+}
+14:
+let desafio = prompt(&quot;Nível do desafio (básico, intermediário,
+avançado):&quot;).toLowerCase();
+
+switch (desafio) {
+case &quot;básico&quot;:
+alert(&quot;Conteúdo: Soma, Subtração, Multiplicação e Divisão.&quot;);
+break;
+case &quot;intermediário&quot;:
+alert(&quot;Conteúdo: Frações, Potenciação e Equações de 1º
+grau.&quot;);
+break;
+case &quot;avançado&quot;:
+alert(&quot;Conteúdo: Cálculo, Trigonometria e Logaritmos.&quot;);
+break;
+default:
+alert(&quot;Nível de desafio desconhecido.&quot;);
