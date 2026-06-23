@@ -1,0 +1,86 @@
+let nome = prompt("Nome:");
+let sobrenome = prompt("Sobrenome:");
+let idade = prompt("Idade:");
+let nascimento = prompt("Data de nascimento:");
+let cpf = prompt("CPF:");
+let rg = prompt("RG:");
+let nacionalidade = prompt("Nacionalidade:");
+
+
+let rua = prompt("Rua:");
+let numero = prompt("Número:");
+let bairro = prompt("Bairro:");
+let cidade = prompt("Cidade:");
+let estado = prompt("Estado:");
+let cep = prompt("CEP:");
+let pais = prompt("País:");
+
+
+let telefone1 = prompt("Telefone 1:");
+let telefone2 = prompt("Telefone 2:");
+let email1 = prompt("Email pessoal:");
+let email2 = prompt("Email profissional:");
+let instagram = prompt("Instagram:");
+let linkedin = prompt("LinkedIn:");
+
+
+let profissao = prompt("Profissão:");
+let empresa = prompt("Empresa:");
+let cargo = prompt("Cargo:");
+let experiencia = prompt("Experiência:");
+let salario = prompt("Salário:");
+let area = prompt("Área:");
+
+
+let escolaridade = prompt("Escolaridade:");
+let curso = prompt("Curso:");
+let instituicao = prompt("Instituição:");
+let inicio = prompt("Ano início:");
+let fim = prompt("Ano fim:");
+let cursoExtra = prompt("Curso extra:");
+
+
+let linguagem = prompt("Linguagem favorita:");
+let editor = prompt("Editor:");
+let sistema = prompt("Sistema:");
+let horas = prompt("Horas de estudo:");
+let areaTech = prompt("Área tech:");
+
+
+let comida = prompt("Comida favorita:");
+let filme = prompt("Filme favorito:");
+let serie = prompt("Série favorita:");
+let musica = prompt("Música favorita:");
+let cor = prompt("Cor favorita:");
+let hobby = prompt("Hobby:");
+
+
+let sonho = prompt("Profissão dos sonhos:");
+let empresaSonho = prompt("Empresa dos sonhos:");
+let salarioDesejado = prompt("Salário desejado:");
+let cidadeSonho = prompt("Cidade que quer morar:");
+let paisVisitar = prompt("País que quer visitar:");
+
+
+console.log("===== RELATÓRIO =====");
+
+console.log("Nome:", nome, sobrenome);
+console.log("Idade:", idade);
+console.log("Nascimento:", nascimento);
+console.log("CPF:", cpf);
+console.log("RG:", rg);
+console.log("Nacionalidade:", nacionalidade);
+
+console.log("Endereço:", rua, numero, bairro, cidade, estado, cep, pais);
+
+console.log("Contato:", telefone1, telefone2, email1, email2, instagram, linkedin);
+
+console.log("Profissão:", profissao, empresa, cargo, experiencia, salario, area);
+
+console.log("Formação:", escolaridade, curso, instituicao, inicio, fim, cursoExtra);
+
+console.log("Tecnologia:", linguagem, editor, sistema, horas, areaTech);
+
+console.log("Preferências:", comida, filme, serie, musica, cor, hobby);
+
+console.log("Objetivos:", sonho, empresaSonho, salarioDesejado, cidadeSonho, paisVisitar);
