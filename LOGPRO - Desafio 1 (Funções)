@@ -1,0 +1,85 @@
+let caua = &amp;quot;Caua&amp;quot;
+let senhaC = &amp;quot;camila&amp;quot;
+
+let fialho = &amp;quot;Fialho&amp;quot;
+let senhaF = &amp;quot;suzana&amp;quot;
+
+let vini = &amp;quot;Vinicius&amp;quot;
+let senhaV = &amp;quot;sonia&amp;quot;
+
+let marcelo = &amp;quot;Marcelo&amp;quot;
+let senhaM = &amp;quot;vanessa&amp;quot;
+
+let victor = &amp;quot;Victor&amp;quot;
+let senhaVI = &amp;quot;fabiane&amp;quot;
+
+let isabelle = &amp;quot;Isabelle&amp;quot;
+let senhaI = &amp;quot;sandra&amp;quot;
+
+let samyra = &amp;quot;Samyra&amp;quot;
+let senhaS = &amp;quot;sabrina&amp;quot;
+
+let julia = &amp;quot;Julia&amp;quot;
+let senhaJ = &amp;quot;janaina&amp;quot;
+
+let larissa = &amp;quot;Larissa&amp;quot;
+let senhaL = &amp;quot;cristoiane&amp;quot;
+
+let rebeca = &amp;quot;Rebeca&amp;quot;
+
+let senhaR = &amp;quot;michele&amp;quot;
+
+let fialho = &amp;quot;Fialho&amp;quot;
+let senhaF = &amp;quot;suzana&amp;quot;
+
+let usu1 = prompt(&amp;quot;Digite seu usuario:&amp;quot;)
+let senha1 = Number(prompt(&amp;quot;Digite sua senha:&amp;quot;))
+
+function login(usudigitado , senhadigitada){
+switch (true){
+case (usu1 == fialho &amp;amp;&amp;amp; senha1 == senhaF):
+console.log(&amp;quot;Acesso liberado&amp;quot;)
+break;
+
+case (usu1 == vini &amp;amp;&amp;amp; senha1 == senhaV):
+console.log(&amp;quot;Acesso liberado&amp;quot;)
+break;
+
+case (usu1 == marcelo &amp;amp;&amp;amp; senha1 == senhaM):
+console.log(&amp;quot;Acesso liberado&amp;quot;)
+break;
+
+case (usu1 == victor &amp;amp;&amp;amp; senha1 == senhaVI):
+console.log(&amp;quot;Acesso liberado&amp;quot;)
+break;
+
+case (usu1 == isabelle &amp;amp;&amp;amp; senha1 == senhaI):
+console.log(&amp;quot;Acesso liberado&amp;quot;)
+
+break;
+
+case (usu1 == samyra &amp;amp;&amp;amp; senha1 == senhaS):
+console.log(&amp;quot;Acesso liberado&amp;quot;)
+break;
+
+case (usu1 == julia &amp;amp;&amp;amp; senha1 == senhaJ):
+console.log(&amp;quot;Acesso liberado&amp;quot;)
+break;
+
+case (usu1 == larissa &amp;amp;&amp;amp; senha1 == senhaL):
+console.log(&amp;quot;Acesso liberado&amp;quot;)
+break;
+
+case (usu1 == rebeca &amp;amp;&amp;amp; senha1 == senhaR):
+console.log(&amp;quot;Acesso liberado&amp;quot;)
+break;
+
+case (usu1 == caua &amp;amp;&amp;amp; senha1 == senhaC):
+console.log(&amp;quot;Acesso liberado&amp;quot;)
+break;
+
+default:
+console.log(&amp;quot;Acesso Negado&amp;quot;)
+
+}
+} login(usu1 , senha1);
