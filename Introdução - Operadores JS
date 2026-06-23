@@ -1,0 +1,99 @@
+
+let valor1 = 10;
+let valor2 = 10;
+let total = valor1 + valor2; // Declaramos 'total' pela primeira vez
+console.log("isso é", total);
+
+
+let peixe = 67;
+let tubarao = 50;
+total = peixe - tubarao; // Apenas mudamos o valor de 'total'
+console.log("isso é", total);
+
+
+let verde = 30;
+let azul = 10;
+total = verde * azul;
+console.log("isso é", total);
+
+
+let marrom = 30;
+let preto = 10;
+total = marrom / preto;
+console.log("isso é", total);
+
+
+let refri = 30;
+let suco = 10;
+total = (refri == suco);
+console.log("isso é", total); // false
+
+
+let trex = 30;
+let anquilossauro = 10;
+total = (trex === anquilossauro);
+console.log("isso é", total); // false
+
+
+let flash = 30;
+let batman = 10;
+total = (flash > batman);
+console.log("isso é", total); // true
+
+
+let branco = 30;
+let vermelho = 10;
+total = (branco < vermelho);
+console.log("isso é", total); // false
+
+
+let carro = 30;
+let moto = 10;
+total = (carro <= moto);
+console.log("isso é", total); // false
+
+
+let pizza = 30;
+let salada = 10;
+total = (pizza >= salada);
+console.log("isso é", total); // true
+
+
+let roxo = 30;
+let laranja = 10;
+roxo++; // roxo vira 31
+total = (roxo + laranja);
+console.log("isso é", total); // 41
+
+
+let rosa = 30; // Adicionado o '=' que faltava
+let amarelo = 10;
+rosa--; // rosa vira 29
+total = (rosa - amarelo);
+console.log("isso é", total); // 19
+
+
+let agua = 30;
+let fogo = 10;
+agua += fogo; // agua vira 40
+total = agua; 
+console.log("isso é", total);
+
+
+let hamburger = 30;
+let batata = 10;
+hamburger -= batata; // hamburger vira 20
+total = hamburger;
+console.log("isso é", total);
+
+
+let camisa = 30;
+let calca = 10;
+total = (camisa != calca);
+console.log("isso é", total); // true
+
+
+let cachorro = 30;
+let gato = 10;
+total = (cachorro !== gato);
+console.log("isso é", total); // true
