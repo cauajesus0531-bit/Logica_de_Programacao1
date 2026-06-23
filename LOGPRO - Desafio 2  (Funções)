@@ -1,0 +1,71 @@
+let usuariosuzana ="suzana"
+let senhasuzana = "Farmacia"
+
+let usuariovanessa ="vanessa"
+let senhavanessa = "6767"
+
+let usuariosonia ="sonia"
+let senhasonia = "67"
+
+let usuariofabiana ="fabiana"
+let senhafabiana = "Victor"
+
+let usuariovictor ="victor"
+let senhavictor = "Creme"
+
+let usuariogiovanna ="maria"
+let senhagiovanna = "Bom dia rio"
+
+let usuariovinicios ="vinicios"
+let senhavinicios = "Feijoada"
+
+let usuarioluciana ="luciana"
+let senhaluciana = "diretora"
+
+let usuarionoboro ="noboro"
+let senhanoboro = "larisa"
+
+let usuarioCauã ="Cauã"
+let senhaCauã = "Olhos verdes"
+
+function fazerlogin() {
+    let usuarioDigitado = prompt("Digite seu usuario");
+    let senhaDigitado = prompt("Digite sua senha");
+    
+
+    if (usuarioDigitado === usuariosuzana && senhaDigitado === senhasuzana) {
+        console.log("Login realizado com sucesso! Bem-vinda, Suzana.");
+    } 
+    else if (usuarioDigitado === usuariovanessa && senhaDigitado === senhavanessa) {
+        console.log("Login realizado com sucesso! Bem-vinda, Vanessa.");
+    } 
+    else if (usuarioDigitado === usuariosonia && senhaDigitado === senhasonia) {
+        console.log("Login realizado com sucesso! Bem-vinda, Sonia.");
+    } 
+    else if (usuarioDigitado === usuariofabiana && senhaDigitado === senhafabiana) {
+        console.log("Login realizado com sucesso! Bem-vinda, Fabiana.");
+    } 
+    else if (usuarioDigitado === usuariovictor && senhaDigitado === senhavictor) {
+        console.log("Login realizado com sucesso! Bem-vindo, Victor.");
+    } 
+    else if (usuarioDigitado === usuariogiovanna && senhaDigitado === senhagiovanna) {
+        console.log("Login realizado com sucesso! Bem-vinda, Maria/Giovanna.");
+    } 
+    else if (usuarioDigitado === usuariovinicios && senhaDigitado === senhavinicios) {
+        console.log("Login realizado com sucesso! Bem-vindo, Vinicios.");
+    } 
+    else if (usuarioDigitado === usuarioluciana && senhaDigitado === senhaluciana) {
+        console.log("Login realizado com sucesso! Bem-vinda, Luciana.");
+    } 
+    else if (usuarioDigitado === usuarionoboro && senhaDigitado === senhanoboro) {
+        console.log("Login realizado com sucesso! Bem-vindo, Noboro.");
+    } 
+    else if (usuarioDigitado === usuarioCauã && senhaDigitado === senhaCauã) {
+        console.log("Login realizado com sucesso! Bem-vindo, Cauã.");
+    } 
+    else {
+        console.log("Usuário ou senha incorretos.");
+    }
+}
+
+fazerlogin();
