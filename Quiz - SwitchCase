@@ -1,0 +1,145 @@
+Quiz10 perguntas
+let pontos = 0;
+
+// Pergunta 1
+let p1 = prompt(&quot;1) Qual evento marca o início da Idade
+Moderna?\nA) Queda de Roma\nB) Revolução Francesa\nC)
+Queda de Constantinopla\nD) Primeira Guerra Mundial&quot;);
+switch (p1) {
+case &quot;C&quot;:
+case &quot;c&quot;:
+console.log(&quot;Acertou!&quot;);
+pontos++;
+break;
+default:
+console.log(&quot;Errou! Resposta correta: C&quot;);
+}
+
+// Pergunta 2 (Ajustado aspas no &#39;K&#39;)
+let p2 = prompt(&quot;2) Na tabela periódica, qual elemento é
+representado pela letra &#39;K&#39;?\nA) Cálcio\nB) Potássio\nC)
+Criptônio\nD) Cobalto&quot;);
+switch (p2) {
+case &quot;B&quot;:
+case &quot;b&quot;:
+console.log(&quot;Acertou!&quot;);
+pontos++;
+break;
+
+default:
+console.log(&quot;Errou! Resposta correta: B&quot;);
+}
+
+// Pergunta 3
+let p3 = prompt(&quot;3) Qual é o maior país em extensão territorial da
+África?\nA) Sudão\nB) Nigéria\nC) Egito\nD) Argélia&quot;);
+switch (p3) {
+case &quot;D&quot;:
+case &quot;d&quot;:
+console.log(&quot;Acertou!&quot;);
+pontos++;
+break;
+default:
+console.log(&quot;Errou! Resposta correta: D&quot;);
+}
+
+// Pergunta 4 (Ajustado resposta correta para B e aspas no título)
+let p4 = prompt(&quot;4) Quem pintou a obra surrealista &#39;A Persistência
+da Memória&#39;?\nA) Pablo Picasso\nB) Salvador Dalí\nC) Vincent van
+Gogh\nD) Joan Miró&quot;);
+switch (p4) {
+case &quot;B&quot;:
+case &quot;b&quot;:
+console.log(&quot;Acertou!&quot;);
+pontos++;
+break;
+
+default:
+console.log(&quot;Errou! Resposta correta: B&quot;);
+}
+
+// Pergunta 5
+let p5 = prompt(&quot;5) Em qual camada da atmosfera ocorrem os
+fenômenos climáticos?\nA) Estratosfera\nB) Mesosfera\nC)
+Troposfera\nD) Exosfera&quot;);
+switch (p5) {
+case &quot;C&quot;:
+case &quot;c&quot;:
+console.log(&quot;Acertou!&quot;);
+pontos++;
+break;
+default:
+console.log(&quot;Errou! Resposta correta: C&quot;);
+}
+
+// Pergunta 6 (Ajustado aspas no título)
+let p6 = prompt(&quot;6) Qual filósofo alemão escreveu &#39;Assim Falou
+Zaratustra&#39;?\nA) Immanuel Kant\nB) Friedrich Nietzsche\nC) Arthur
+Schopenhauer\nD) Karl Marx&quot;);
+switch (p6) {
+case &quot;B&quot;:
+case &quot;b&quot;:
+console.log(&quot;Acertou!&quot;);
+pontos++;
+
+break;
+default:
+console.log(&quot;Errou! Resposta correta: B&quot;);
+}
+
+// Pergunta 7
+let p7 = prompt(&quot;7) O Estreito de Gibraltar liga o Oceano Atlântico a
+qual mar?\nA) Mar Negro\nB) Mar Vermelho\nC) Mar Morto\nD) Mar
+Mediterrâneo&quot;);
+switch (p7) {
+case &quot;D&quot;:
+case &quot;d&quot;:
+console.log(&quot;Acertou!&quot;);
+pontos++;
+break;
+default:
+console.log(&quot;Errou! Resposta correta: D&quot;);
+}
+
+// Pergunta 8
+let p8 = prompt(&quot;8) Quantos ossos tem o corpo humano de um
+adulto, em média?\nA) 206\nB) 300\nC) 150\nD) 212&quot;);
+switch (p8) {
+case &quot;A&quot;:
+case &quot;a&quot;:
+console.log(&quot;Acertou!&quot;);
+pontos++;
+
+break;
+default:
+console.log(&quot;Errou! Resposta correta: A&quot;);
+}
+
+// Pergunta 9
+let p9 = prompt(&quot;9) Qual era a capital do antigo Império
+Bizantino?\nA) Roma\nB) Atenas\nC) Constantinopla\nD) Cartago&quot;);
+switch (p9) {
+case &quot;C&quot;:
+case &quot;c&quot;:
+console.log(&quot;Acertou!&quot;);
+pontos++;
+break;
+default:
+console.log(&quot;Errou! Resposta correta: C&quot;);
+}
+
+// Pergunta 10
+let p10 = prompt(&quot;10) Qual partícula do átomo possui carga elétrica
+negativa?\nA) Próton\nB) Nêutron\nC) Elétron\nD) Posítron&quot;);
+switch (p10) {
+case &quot;C&quot;:
+case &quot;c&quot;:
+console.log(&quot;Acertou!&quot;);
+pontos++;
+break;
+
+default:
+console.log(&quot;Errou! Resposta correta: C&quot;);
+}
+
+console.log(&quot;Você acertou &quot; + pontos + &quot; de 10 perguntas!&quot;);
