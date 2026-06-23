@@ -1,0 +1,102 @@
+Function bom dia(){
+Console.log(“Bom dia!)
+
+{
+Bom dia().
+_______________________________________________________________
+______________
+Let num1 = 10
+Let num2 = 20
+Function soma(){
+Console.log(num1+num2)
+
+}
+Soma()
+_______________________________________________________________
+______________
+
+let n1 = Number(prompt(&quot;Digite o primeiro número:&quot;));
+let n2 = Number(prompt(&quot;Digite o segundo número:&quot;));
+let operacao = prompt(&quot;Escolha a operação: (+, -, *, /)&quot;);
+
+let resultado;
+
+switch (operacao) {
+case &quot;+&quot;:
+resultado = n1 + n2;
+break;
+case &quot;-&quot;:
+resultado = n1 - n2;
+break;
+
+case &quot;*&quot;:
+resultado = n1 * n2;
+break;
+case &quot;/&quot;:
+resultado = n2 !== 0 ? n1 / n2 : &quot;Erro: Divisão por zero&quot;;
+break;
+default:
+resultado = &quot;Operação inválida!&quot;;
+}
+
+alert(`Resultado: ${resultado}`);
+
+function soma(a,b){
+return a + b
+}
+console.log(soma(2,7))
+Arrumando a Ordem dos códigos: 
+const nome = &quot;Fernanda&quot; 
+let idade = 27 
+let categoria 
+ 
+if (idade &lt; 12) { 
+    categoria = &quot;criança&quot; 
+    let resultado = idade + 5 
+} else if (idade &gt;= 11 &amp;&amp; idade &lt;= 18) { 
+    categoria = &quot;adolescente&quot; 
+} else if (idade &gt; 18 &amp;&amp; idade &lt; 60) { 
+    categoria = &quot;adulta&quot; 
+
+} else if (idade &gt;= 60) { 
+    categoria = &quot;idosa&quot; 
+} 
+ 
+console.log(&quot;Categoria: &quot; + categoria) 
+console.log(&quot;idade final: &quot; + idade) 
+ 
+_______________________________________________________________
+______________
+
+ 
+let idade = 25 
+ 
+if (idade &lt; 70) { 
+    console.log(&quot;Vota obrigatório.&quot;) 
+ 
+    if (idade &gt;= 16 &amp;&amp; idade &lt; 18) { 
+        console.log(&quot;Voto Facultativo.&quot;) 
+    } 
+} else if ((idade &gt;= 16 &amp;&amp; idade &lt; 18) || idade &gt;= 70) { 
+    console.log(&quot;Voto Facultativo.&quot;) 
+} else { 
+    if (idade &gt;= 18) { 
+        console.log(&quot;Voto obrigatório.&quot;) 
+    } 
+} 
+if (idade &lt;= 70) { 
+    console.log(&quot;Voto Facultativo.&quot;) 
+} else { 
+
+} 
+let numero = -5 
+ 
+if (numero &gt; 0) { 
+    console.log(&quot;Positivo&quot;) 
+} else if (numero &lt; 0) { 
+    console.log(&quot;Negativo&quot;) 
+} else { 
+    console.log(&quot;Zero&quot;) 
+} 
+ 
+numero = 10
