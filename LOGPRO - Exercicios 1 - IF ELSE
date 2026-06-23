@@ -1,0 +1,82 @@
+Classificar Idade(Menor de idade/Maior de
+idade
+let name = (prompt)(&quot;Digite seu Nome:&quot;)
+console.log(&quot;Seja bem vindo ao Nosso Sistema!&quot;,name)
+let Idade = (prompt)(&quot;Digite Sua Idade:&quot;)
+if (Idade&gt;=18)
+console.log(&quot;Parabens Voce é maior de Idade&quot;)
+else(Idade&lt;18)
+console.log(&quot;Acesso Negado!&quot;)
+
+Classificar Se Números são &gt; ou &lt; ou =
+let Number = (prompt)(&quot;Digite um Numero qualquer:&quot;)
+let Number2 = (prompt)(&quot;Digite Outro Numero por favor:&quot;)
+if (Number&gt;Number2) {
+console.log(&quot;O primeiro Numero é maior:&quot;)
+} else if (Number2&gt;Number) {
+console.log(&quot;O segundo Numero é maior:&quot;)
+} else {
+console.log(&quot;Os Numeros são iguais:&quot;)
+}
+
+&amp;&amp; e II:
+&amp;&amp;
+let idade = 20
+let temCarteira = false
+
+if (idade &gt;= 18 &amp;&amp; temCarteira) {
+
+console.log(&quot;Pode dirigir&quot;)
+} else {
+console.log(&quot;Não pode dirigir&quot;)
+}
+||
+let idade = 16;
+let temAutorizacao = true;
+
+if (idade &gt;= 18 || temAutorizacao) {
+console.log(&quot;Pode entrar&quot;);
+} else {
+console.log(&quot;Não pode entrar&quot;);
+}
+
+Senha e Usuario:
+let usuariocorreto=&quot;caua&quot;
+let senhacorreta=&quot;1234&quot;
+let usuario= prompt(&quot;Digite o usuario:&quot;)
+let senha= prompt(&quot;Digite sua senha:&quot;)
+if (usuario== &quot;&quot;|| senha==&quot;&quot;) {
+console.log(&quot;Preencha todos os campos&quot;)
+}
+else if (usuario==usuariocorreto &amp;&amp; senha==senhacorreta) {
+
+console.log(&quot;Login Realizado com sucesso&quot;)
+}
+else if (usuario!=usuariocorreto &amp;&amp; senha!=senhacorreta){
+console.log(&quot;Usuario e Senha incorretos&quot;)
+}
+else if (usuario!=usuariocorreto){
+console.log(&quot;Usuario incorreto&quot;)
+}
+else{
+console.log(&quot;Senha incorreta&quot;)
+}
+
+Tabuada:
+let numero = Number(prompt(&quot;Digite um número para ver a tabuada:&quot;));
+
+if (numero) {
+console.log(numero + &quot; x 1 = &quot; + (numero * 1));
+console.log(numero + &quot; x 2 = &quot; + (numero * 2));
+console.log(numero + &quot; x 3 = &quot; + (numero * 3));
+console.log(numero + &quot; x 4 = &quot; + (numero * 4));
+console.log(numero + &quot; x 5 = &quot; + (numero * 5));
+console.log(numero + &quot; x 6 = &quot; + (numero * 6));
+console.log(numero + &quot; x 7 = &quot; + (numero * 7));
+console.log(numero + &quot; x 8 = &quot; + (numero * 8));
+console.log(numero + &quot; x 9 = &quot; + (numero * 8));
+console.log(numero + &quot; x 10 = &quot; + (numero * 10));
+}
+
+else{
+console.log(&quot;Digite um numero valido!&quot;)
